@@ -15,7 +15,4 @@ p1 {
   font-weight: bold;
   color: black;
   display: inline-flex;
-  position: absolute;
-  flex-wrap: wrap;
-
 }
