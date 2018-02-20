@@ -1,0 +1,21 @@
+
+
+p1 {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: mediumaquamarine;
+}
+
+
+#header {
+  width: 100%;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  display: inline-flex;
+  position: absolute;
+  flex-wrap: wrap;
+
+}
