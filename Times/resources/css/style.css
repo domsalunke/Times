@@ -44,22 +44,39 @@ span {
 /*Main Container*/
 div {
   border: 1px solid black;
+
 }
 
 .content {
   display: flex;
-  width: 1400px;
-  height: 1200px;
-  padding-top: 120px;
-  padding-left: 20px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 1300px;
+  margin: 0 auto 78 auto;
+  padding-top: 116px;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  margin-right: 30px;
+  flex-wrap: wrap;
+  margin-right: 32px;
+}
+.column.first {
+  float: left;
+  width: 630px;
 }
 
-.column first {
+.column.second {
+  float: left;
   width: 300px;
+}
+
+.column.third {
+  float: right;
+  width: 240px;
+}
+
+.cookie.image {
+  align-items: center;
 }
